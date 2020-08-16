@@ -1,0 +1,139 @@
+#page-landing{
+    background: var(--color-primary);
+}
+
+#page-landing #container {
+    color: var(--color-text-in-primary);
+}
+
+.logo-container img{
+    height: 10rem;
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 3.2rem;
+    /* deu um espaço entre a imagem e a frase "Sua plataforma de ..." */  
+}
+
+.logo-container h2{
+    font-weight: 500;
+    font-size: 3.6rem;
+    line-height: 4.6rem;
+    margin-top: 0.8rem;
+}
+
+.hero-image {
+    width: 100%;
+}
+
+.buttons-container {
+    display: flex; 
+    /* mesmo com o estudar e dar aulas ja estarem na frente um do outro mesmo sem o flex, é preciso usar essa propriedade para dar certo o comando justify-content */
+    justify-content: center;
+    margin: 3.2rem 0;
+}
+
+.buttons-container a{
+    width: 30rem;
+    height: 10.4rem;
+    border-radius: 0.8rem; 
+    /* serve para arredodar as bordas, coloque um background-color: //cor; para ver melhor como funciona */
+    margin-right: 1.6rem;
+
+    font: 700 2.4rem Archivo;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none; 
+    /* tira as linhas debaixo do link */
+
+    transition: background 0.2s; 
+
+    color: var(--color-button-text);
+}
+
+.buttons-container a img{
+    width: 4rem;
+    margin-right: 2.4rem;
+}
+
+.buttons-container a.study{
+    background: var(--color-primary-lighter);
+}
+
+.buttons-container a.study:hover{
+    background: var(--color-primary-light); 
+    /* faz a animação quando se passa o mouse encima  */
+}
+
+.buttons-container a.give-classes{
+    background: var(--color-secondary);
+    margin-right: 0;
+}
+
+.buttons-container a.give-classes:hover{
+    background: var(--color-secondary-dark);
+}
+
+.total-connections{
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.total-connections img{
+    margin-left: 0.8rem;
+}
+
+@media(max-width: 699px){
+    :roor{
+        font-size: 40%; /* modificar as medidas rem */
+    }
+}
+
+/* a partir de agora essas configurações sao para um layout visto de um computador */
+@media(min-width: 1100px){
+    #page-landing #container{
+        max-width: 1100px;
+        display: grid;
+        grid-template-columns: 2fr 1fr 2fr;
+        grid-template-rows: 350px 1fr;
+        /* para entender melhor essa parte de grid-template, va em inspecionar >> elements >> e seleciona a parte div id container e veja como fica separado as colunas */
+        grid-template-areas: "proffy image image"
+                             "button button texting";
+        column-gap: 87px;
+        row-gap: 86px;
+        /* faz com que os grids-template fiquem mais distantes entre eles */
+    }
+}
+
+.logo-container{
+    grid-area: proffy;
+    text-align: initial;
+    align-self: center;
+    margin: 0;
+}
+
+.logo-container img{
+    height: 127%;
+
+}
+
+.hero-image{
+    grid-area: image;
+    height: 350px;
+}
+.buttons-container{
+    grid-area: button;
+    justify-content: flex-start;
+    margin: 0;
+}
+.total-connections{
+    grid-area: texting;
+    justify-self: end;
+    font-size: 1.2rem;
+}
