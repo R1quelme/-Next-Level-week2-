@@ -90,7 +90,7 @@
 }
 
 @media(max-width: 699px){
-    :roor{
+    :root{
         font-size: 40%; /* modificar as medidas rem */
     }
 }
@@ -119,8 +119,7 @@
 }
 
 .logo-container img{
-    height: 127%;
-
+    height: 127px;
 }
 
 .hero-image{
