@@ -5,7 +5,6 @@
 
 <a href='#proffy'>PROFFY </a>|
 <a href='#functionalities'>FUNCIONALIDADES </a>|
-<a href='#tecnologies'>TECNOLOGIAS </a>|
 
 </div>
 
@@ -24,17 +23,6 @@ O Proffy é uma plataforma de estudos on-line, com intuito de conectar alunos e 
 3. Listas de professores disponíveis.
 4. Campo de inscrição, para professores.
 
----
 
-## <p id='tecnologies'>💻 Tecnologias </p>
-
-<a href='https://pt-br.reactjs.org/'>React</a>
-<br/>
-<a href='https://www.typescriptlang.org/'>TypeScript</a>
-<br/>
-<a href='https://nodejs.org/en/download/'>Node.js</a>
-<br/>
-<a href='https://reactnative.dev/'>React Native</a>
-<br/>
 
 
