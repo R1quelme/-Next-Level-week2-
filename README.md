@@ -1,6 +1,6 @@
 <div align='center'>
 
-![](https://github.com/R1quelme/Proffy/blob/master/public/images/project-proffy.png)
+![](https://github.com/R1quelme/Proffy/blob/master/public/images/web-landing.png)
 ---
 
 <a href='#proffy'>PROFFY </a>|
