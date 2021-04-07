@@ -1,5 +1,8 @@
 <div align='center'>
 
+![](https://github.com/R1quelme/Proffy/blob/master/public/images/project-proffy.png)
+---
+
 <a href='#proffy'>PROFFY </a>|
 <a href='#tecnologias'>TECNOLOGIAS </a>|
 <a href='#functionalities'>FUNCIONALIDADES </a>
