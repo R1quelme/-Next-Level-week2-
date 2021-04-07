@@ -4,6 +4,7 @@
 ---
 
 <a href='#proffy'>PROFFY </a>|
+<a href='#tecnologias'>TECNOLOGIAS </a>|
 <a href='#functionalities'>FUNCIONALIDADES </a>
 
 </div>
@@ -13,6 +14,14 @@
 ## <p id='proffy'>📚 Proffy </p>
 
 O Proffy é uma plataforma de estudos on-line, com intuito de conectar alunos e professores com o objetivo de ter aulas on-line.
+
+---
+
+## <p id='tecnologias'> 🚀 Tecnologias </p>
+- [Node.js](https://nodejs.org/en/)
+- [Express](https://expressjs.com/pt-br/)
+- [SQLite](https://www.sqlite.org/index.html)
+- [Nunjucks](https://mozilla.github.io/nunjucks/)
 
 ---
 
