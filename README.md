@@ -6,7 +6,6 @@
 <a href='#proffy'>PROFFY </a>|
 <a href='#functionalities'>FUNCIONALIDADES </a>|
 <a href='#tecnologies'>TECNOLOGIAS </a>|
-<a href='#layout'>LAYOUT </a>|
 
 </div>
 
@@ -38,15 +37,4 @@ O Proffy é uma plataforma de estudos on-line, com intuito de conectar alunos e 
 <a href='https://reactnative.dev/'>React Native</a>
 <br/>
 
----
-
-## <p id='layout'>🎨 Layout ? </p>
-
-<a href='https://reactnative.dev/'>✍ Layout no Figma</a>
-
-<div align='center'>
-<img src="./.github/capa.png" width='500'>
-<img src="./.github/print2.png" width='500'>
-
-</div>
 
