@@ -1,7 +1,4 @@
 <div align='center'>
-<img src="./.github/proffy.png" width='250'>
-
----
 
 <a href='#proffy'>PROFFY </a>|
 <a href='#tecnologias'>TECNOLOGIAS </a>|
