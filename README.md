@@ -4,7 +4,7 @@
 ---
 
 <a href='#proffy'>PROFFY </a>|
-<a href='#functionalities'>FUNCIONALIDADES </a>|
+<a href='#functionalities'>FUNCIONALIDADES </a>
 
 </div>
 
